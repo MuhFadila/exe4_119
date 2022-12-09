@@ -6,7 +6,7 @@ namespace exe4_119
     {
         static void Main(string[] args)
         {
-
+            
         }
     }
 }
