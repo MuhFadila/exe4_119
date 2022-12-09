@@ -12,7 +12,11 @@ namespace exe4_119
             int MAX = Convert.ToInt16(Console.ReadLine());
             while (true)
             {
-
+                Console.WriteLine("1.Push");
+                Console.WriteLine("2.Pop");
+                Console.WriteLine("3.Display");
+                Console.WriteLine("4.Exit");
+                Console.WriteLine("Enter Your Choice :");
             }
         }
     }
