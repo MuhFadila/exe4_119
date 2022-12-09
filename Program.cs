@@ -17,6 +17,11 @@ namespace exe4_119
                 Console.WriteLine("3.Display");
                 Console.WriteLine("4.Exit");
                 Console.WriteLine("Enter Your Choice :");
+                int ch = Convert.ToInt16(Console.ReadLine());
+                switch (ch)
+                {
+
+                }
             }
         }
     }
