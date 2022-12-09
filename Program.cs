@@ -24,7 +24,7 @@ namespace exe4_119
                         if (Fadil > MAX - 1) Console.WriteLine("...Stack Overflow...");
                         else
                         {
-                            Console.WriteLine("Enter the Item :");
+                            Console.WriteLine("Enter the Number :");
                             int n = int.Parse(Console.ReadLine());
                             s[++Fadil] = n;
                         }
