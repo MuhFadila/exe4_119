@@ -44,6 +44,8 @@ namespace exe4_119
                             for (int i = Fadil; i >= 0; i--) Console.WriteLine(s[i]);
                         }
                         break;
+                    case 4:
+                        return;
                 }
                 
             }
