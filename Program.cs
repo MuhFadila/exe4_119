@@ -36,7 +36,16 @@ namespace exe4_119
                             Console.WriteLine("Popped item :" + s[Fadil--]);
                         }
                         break;
+                    case 3:
+                        if (Fadil == -1) Console.WriteLine("...Stack Underflow...");
+                        else
+                        {
+                            Console.WriteLine("Elements in the stack");
+                            for (int i = Fadil; i >= 0; i--) Console.WriteLine(s[i]);
+                        }
+                        break;
                 }
+                
             }
         }
     }
