@@ -29,7 +29,13 @@ namespace exe4_119
                             s[++Fadil] = n;
                         }
                         break;
-                    
+                    case 2:
+                        if (Fadil == -1) Console.WriteLine("...Stack Underflow...");
+                        else
+                        {
+                            Console.WriteLine("Popped item :" + s[Fadil--]);
+                        }
+                        break;
                 }
             }
         }
