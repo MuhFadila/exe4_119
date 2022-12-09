@@ -6,7 +6,7 @@ namespace exe4_119
     {
         static void Main(string[] args)
         {
-            int top = -1;
+            int Fadil = -1;
             int[] s = new int[39];
             Console.WriteLine("Enter the size of the stack");
             int MAX = Convert.ToInt16(Console.ReadLine());
@@ -20,7 +20,16 @@ namespace exe4_119
                 int ch = Convert.ToInt16(Console.ReadLine());
                 switch (ch)
                 {
-
+                    case 1:
+                        if (Fadil > MAX - 1) Console.WriteLine("...Stack Overflow...");
+                        else
+                        {
+                            Console.WriteLine("Enter the Item :");
+                            int n = int.Parse(Console.ReadLine());
+                            s[++Fadil] = n;
+                        }
+                        break;
+                    
                 }
             }
         }
